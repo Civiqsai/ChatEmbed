@@ -53,14 +53,14 @@ export const Badge = (props: Props) => {
       Powered by
       <a
         ref={liteBadge}
-        href={'https://tappstr.com'}
+        href={'https://civiq.ai'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Tappstr</span>
+        <span> CiviQ</span>
       </a>
     </span>
   );
